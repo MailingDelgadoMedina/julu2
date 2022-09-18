@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
           href="https://res.cloudinary.com/programandoconmei/image/upload/v1663450751/JULU_ocgbye.ico"
         />
       </Head>
+
+      <Header />
     </div>
   );
 }

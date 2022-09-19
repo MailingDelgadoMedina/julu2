@@ -1,6 +1,6 @@
 # Julu 2
 
-<img src="https://res.cloudinary.com/programandoconmei/image/upload/v1663572226/Screen_Shot_2022-09-19_at_3.18.12_AM_iyhfzy.png" alt="mobile view" />
+<img src="https://res.cloudinary.com/programandoconmei/image/upload/v1663572226/Screen_Shot_2022-09-19_at_3.18.12_AM_iyhfzy.png" alt="mobile view" style="width:100px; height:200px;" />
 
 
 ## Deploy on Vercel

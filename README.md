@@ -1,5 +1,11 @@
 # Julu 2
 
+<img src="https://res.cloudinary.com/programandoconmei/image/upload/v1663572189/Screen_Shot_2022-09-19_at_3.20.50_AM_btejni.png" style="width:500px; height:400px;" />
+
+
+## Deploy on Vercel
+[Visit the Site](https://julu2.vercel.app/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -12,25 +18,69 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### TailwindCSS   [Documentation](https://tailwindcss.com/docs/guides/nextjs)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+npm install -D tailwindcss postcss autoprefixer --force
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+npx tailwindcss init -p
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### Add the paths to all of your template files in your tailwind.config.js file.
 
-## Learn More
+/\*_ @type {import('tailwindcss').Config} _/
+module.exports = {
 
-To learn more about Next.js, take a look at the following resources:
+content: [
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+"./pages/**/*.{js,ts,jsx,tsx}",
+"./components/**/*.{js,ts,jsx,tsx}",
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+],
+theme: {
+extend: {},
+},
+plugins: [],
+}
 
-## Deploy on Vercel
+#### Add the paths to all of your template files in your globals.css file. Please clean your file before adding this code.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<hr/>
+
+### TailwindUI [Documentation](https://tailwindui.com/documentation)
+
+```bash
+npm install tailwindcss@latest --force
+```
+
+```bash
+npm i  @tailwindcss/forms --force
+```
+
+```bash
+npm i  @tailwindcss/typography --force
+```
+
+```bash
+npm i  @tailwindcss/aspect-ratio --force
+```
+
+```bash
+npm install @headlessui/react @heroicons/react --force
+```
+
+<hr/>
+
+
+
+

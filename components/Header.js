@@ -22,6 +22,7 @@ function Header() {
         <HeaderItem title="Account" Icon={UserIcon} />
       </div>
       <Image
+        alt="logo"
         className="object-contain"
         src="https://res.cloudinary.com/programandoconmei/image/upload/v1663476468/JULUtransparent_kzds8o.svg"
         width={200}

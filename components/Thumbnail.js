@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import { forwardRef } from "react";
 import Image from "next/image";
 import { ThumbUpIcon } from "@heroicons/react/outline";
 const Thumbnail = forwardRef(({ result }, ref) => {

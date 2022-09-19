@@ -1,6 +1,6 @@
 # Julu 2
 
-<img src="https://res.cloudinary.com/programandoconmei/image/upload/v1663572189/Screen_Shot_2022-09-19_at_3.20.50_AM_btejni.png" alt="mobile view" style="width:500px; height:200px;" />
+
 
 <img src="https://res.cloudinary.com/programandoconmei/image/upload/v1663572206/Screen_Shot_2022-09-19_at_3.20.11_AM_b5pvc8.png" alt="mobile view" style="width:600px; height:400px;" />
 
